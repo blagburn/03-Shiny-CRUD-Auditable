@@ -220,7 +220,7 @@ car_edit_module <- function(input, output, session, modal_title, car_to_edit, mo
             showToast("success", paste0(modal_title, " Success"))
         }, error = function(error) {
             
-            msg <- "Erroe Adding Car"
+            msg <- "Error Adding Car"
             # print `msg` so that we can find it in the logs
             print(msg)
             # print the actual error to log it
